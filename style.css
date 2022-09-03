@@ -9,10 +9,10 @@ html {
     margin: auto;
     transform: translateY(35%);
     width: 700px;
-    padding: 4em;
+    padding: 3.5em 6em;
     border-radius: 2em;
     text-align: center;
-    box-shadow: 0em 1em 0.1em #00000025;
+    box-shadow: 0em 0.5em 0em #00000025;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,8 +26,12 @@ ul {
 
 li {
     font-size: 0.7em;
-    border-bottom: 1px solid #EDF5E1;
+    border-bottom: 1px solid #edf5e179;
     padding: 1em
+}
+
+li:nth-of-type(1) {
+    font-weight: 700;
 }
 
 button {
@@ -42,5 +46,6 @@ button {
 
 button:hover {
     transform: translateY(-0.4em);
-    box-shadow: 0em 0.3em 0em #ffffff;
+    box-shadow: 0em 0.3em 0em #EDF5E1;
+    font-weight: 700;
 }
